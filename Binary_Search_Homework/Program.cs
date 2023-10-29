@@ -15,7 +15,7 @@ namespace Binary_Search_Homework
             int key = 10;
 
             // int idx = BinarySearchHomework.TernarySearch(arr1, key);
-            int idx = BinarySearchHomework.TernarySearch(arr1, key, 0, arr1.Length);
+            int idx = BinarySearchHomework.TernarySearch(arr1, key, 0, arr1.Length - 1);
 
             Console.WriteLine("Found {0} at index {1} using Ternary Search", key, idx);
 
@@ -26,7 +26,7 @@ namespace Binary_Search_Homework
 
             int repeat_count = BinarySearchHomework.GetRepeatCount(arr2, key2);
 
-            Console.WriteLine("the number 2 is repeated {0} times", repeat_count);
+            Console.WriteLine("the number {1} is repeated {0} times", repeat_count , key2);
         }
     }
 }
