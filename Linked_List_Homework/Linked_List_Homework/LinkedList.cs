@@ -27,6 +27,7 @@ namespace Linked_List_Homework
             if (First == null)
             {
                 First = temp;
+
                 return;
             }
 
